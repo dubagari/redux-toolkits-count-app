@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #dbdbc1;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.home-btn{
+  display: inline;
+  gap: 1rem;
+}

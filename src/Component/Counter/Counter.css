@@ -1,0 +1,55 @@
+
+.counter{
+    width: 45%;
+    margin: 15rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b0349;
+}
+
+.counter-body{
+    text-align: center;
+    padding: 1rem;
+}
+.counter-body .btn{
+    margin: .5rem;
+    padding: .5rem 2rem;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.btn:hover{
+    transform: translateY(-8px);
+    /* letter-spacing: .3rem; */
+}
+
+.head{
+    color: #0cdbdb;
+    text-transform: uppercase;
+}
+.home{
+    background: #0cdbdb;
+    margin-bottom: 10rem;
+}
+.add{
+    background: #fd4242;
+}
+.reset{
+    background: #310597;
+}
+.subtract{
+    background: #177226;
+}
+.addNumber{
+    background: #270101;
+}
+
+.count{
+    margin: .5rem 0;
+    color: #fff;
+    font-size: 3rem;
+}
